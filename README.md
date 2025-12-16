@@ -14,7 +14,7 @@ There's 4,238 rows of data with 16 columns.
 **IDE:** Jupyter Notebook  
 
 ## Cleaning The Data:  
-During my exploratory data analysis I saw there were missing rows of data and decided to fix this issue through fill the missing data with the median of each column. The reason for doing this is that we have enough data in each row to give us an adequate estimate of where the missing data would likely fall. Having more data in this situation also helps due to this being health related. I think it wouldn't help getting rid of rows of data when we would rather error on the side of caution.  
+During my exploratory data analysis I saw there were missing rows of data and decided to fix this issue through filling the missing data with the median of each column. The reason for doing this is that we have enough data in each row to give us an adequate estimate of where the missing data would likely fall. Having more data in this situation also helps due to this being health related. I think it wouldn't help getting rid of rows of data when we would rather error on the side of caution.  
 
 ## Stats Summary
 Once I was confident that there was no missing data and no duplicates, I moved on to creating the logit regression. I put together the model and looked at the statistics to get an idea of what the p-values would read as for each variable. To find out what variables would be significant to our data and help the model the most in making the best predicitions it can.  
